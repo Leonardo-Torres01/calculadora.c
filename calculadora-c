@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "function_multiplicar.h"
 
-int main(){
+int main()
+{
     int input = 0;
     int num1 = 0;
     int num2 = 0;
@@ -14,7 +15,8 @@ int main(){
     printf("--> ");
     scanf("%d", &input);
     
-    switch(input){
+    switch(input)
+    {
         case 4:
             printf("\n\nDigite o primeiro numero: ");
             scanf("%d", &num1);
@@ -24,9 +26,9 @@ int main(){
             break;
         
         default:
-            printf("opcao indisponivel");
+            printf("Opção indisponível");
             break;
     }
-    printf("\nfeito por Leonardo Mattoso (https://github.com/) )");
+    printf("\nfeito por Leonardo Mattoso (https://github.com/Leonardo-Torres01)");
     return 0;
 }

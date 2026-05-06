@@ -16,4 +16,4 @@ jobs:
     - name: compile
       run: gcc test_calculadora.c -o test_calculadora
     - name: execute
-      run: .\test_calculadora
+      run: ./test_calculadora

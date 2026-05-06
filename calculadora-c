@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "function_multiplicar.h"
+#include "function_calcular.h"
 
-int main()
-{
+int main(){
     int input = 0;
     int num1 = 0;
     int num2 = 0;
@@ -17,18 +16,42 @@ int main()
     
     switch(input)
     {
+        case 1:
+            printf("\n\nDigite o primeiro numero: ");
+            scanf("%d", &num1);
+            printf("Digite o segundo numero: ");
+            scanf("%d", &num2);
+            printf("O resultado e: %d", num1+num2);
+            break;
+
+        case 2:
+            printf("\n\nDigite o primeiro numero: ");
+            scanf("%d", &num1);
+            printf("Digite o segundo numero: ");
+            scanf("%d", &num2);
+            printf("O resultado e: %d", num1-num2);
+            break;
+
+        case 3:
+            printf("\n\nDigite o primeiro numero: ");
+            scanf("%d", &num1);
+            printf("Digite o segundo numero: ");
+            scanf("%d", &num2);
+            printf("O resultado e: %d", dividir(num1, num2));
+            break;
+
         case 4:
             printf("\n\nDigite o primeiro numero: ");
             scanf("%d", &num1);
             printf("Digite o segundo numero: ");
             scanf("%d", &num2);
-            printf("O produto e: %d", multiplicar(num1, num2));
+            printf("O resultado e: %d", multiplicar(num1, num2));
             break;
         
         default:
-            printf("Opção indisponível");
+            printf("opcao indisponivel");
             break;
     }
-    printf("\nfeito por Leonardo Mattoso (https://github.com/Leonardo-Torres01)");
+    printf("\nFeito por Leonardo Mattoso (https://github.com/Leonardo-Torres01");
     return 0;
 }

@@ -29,7 +29,8 @@ int multiplicar(int numero1, int numero2)
     return produto;
 }
 
-int dividir(int numero1, int numero2) {
+int dividir(int numero1, int numero2) 
+  {
     int dividendo, divisor;
     int quociente, resto;
 
@@ -38,10 +39,11 @@ int dividir(int numero1, int numero2) {
     quociente = 0;
     resto = dividendo;
 
-    while (resto >= divisor) {
+    while (resto >= divisor) 
+     {
         quociente = quociente + 1;
         resto = resto - divisor;
-    }
+     }
 
     return quociente;
   printf("\nfeito por Leonardo Mattoso (https://github.com/Leonardo-Torres01)");

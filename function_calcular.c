@@ -44,7 +44,6 @@ int dividir(int numero1, int numero2)
         quociente = quociente + 1;
         resto = resto - divisor;
      }
-
-    return quociente;
   printf("\nfeito por Leonardo Mattoso (https://github.com/Leonardo-Torres01)");
+  return quociente;
 }

@@ -28,7 +28,8 @@ int multiplicar(int numero1, int numero2)
         contador1 = contador1 + 1;
     }
     produto = produto * sinal1 * sinal2;
-    return produto;
   
   printf("\nfeito por Leonardo Mattoso (https://github.com/Leonardo-Torres01");
+    
+    return produto;
 }

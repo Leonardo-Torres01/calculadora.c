@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "function_calcular.h"
+#include "function_calcular.c"
 
 int main(){
     assert(multiplicar(2, 0) == 2*0);
